@@ -23,6 +23,8 @@ You can install the extension in one of two ways:
 
     That prints the path of the `markdown` module.  It should have a subdirectory named `extensions`.  Rename `mdx_mathjax.py` to `mathjax.py` and copy it to that `extensions` subdirectory.
 
+    If `python-markdown` was installed as a zipped egg file, you won't find that `markdown/extensions` directory because it's inside the egg file.  You'll have to delete the egg file (you can find the name in the output of the command above) and reinstall it unzipped: `easy_install -Z Markdown`.  Then you should have a `markdown/extensions` directory in which to put `mathjax.py`.
+
 -    You can put it in your `PYTHONPATH`.  If you do this, don't rename the file.  It needs to be named `mdx_mathjax.py`.
 
 ## Using the extension from the command-line
