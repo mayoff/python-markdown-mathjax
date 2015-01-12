@@ -47,4 +47,8 @@ If you're using the `markdown` module from a Python program, you will need to im
 
 If you're using the `markdown` module from a Python program, and it can't load the `mathjax` extension, it will raise a `markdown.MarkdownException` error.
 
+# No Copyright
+
+The author of this repository, Rob Mayoff, dedicates the contents of this repository to the public domain, in accordance with the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+reproduced in the file named COPYRIGHT in this repository.
 
